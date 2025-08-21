@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fdfdfd;
+  line-height: 1.6;
+}
+ header {
+  background: linear-gradient(90deg, rgba(130, 172, 247, 0.3), rgba(30,172,247,.6));
+  color: #e6edf0;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+header p {
+  font-size: 1rem;
+}    
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+nav a:hover {
+  background: skyblue;
+  color: #222;
+}    
+section {
+  padding: 30px 20px;
+  max-width: 1300px;
+  margin: auto;
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: violet;
+  font-size: 2rem;
+}
+#social{
+    max-height: 800px;
+            
+}
+#contentBoxID img{
+    width:50%;
+    border-radius: 5px;
+}
+#contentBoxID{
+    display:flex;
+  flex-direction: row;
+}
+#div1content{
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.content-box {
+  background: rgba(13, 74, 82, 0.5);
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  backdrop-filter: blur(12px);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.content-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.6);
+}
+ul li {
+  margin: 10px 0;
+}   
+footer {
+  background: rgba(0,0,0,.6);
+  color: #fff;
+  text-align: center;
+  padding: 18px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+}    
+@media(max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+}
