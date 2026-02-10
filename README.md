@@ -1,1 +1,1 @@
-This is my portfolio , imple and basic
+This is my portfolio , simple and basic
